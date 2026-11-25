@@ -1,12 +1,12 @@
 ﻿'--------------------------------------------------------------------------------------------------
-' BezierSS: AppData.vb
+' FallingComponentsSS: AppData.vb
 '    © 2026 Remus Rigo
 '       v1.0.20261111
 '--------------------------------------------------------------------------------------------------
 
 Public Module AppData
 
-   Public Const appName As String = "Bezier ScreenSaver"
+   Public Const appName As String = "Falling Components ScreenSaver"
    Public Const appVersion As String = "v1.0"
    Public Const appBuild As String = "20261111"
    Public Const appAuthor As String = "Remus Rigo"

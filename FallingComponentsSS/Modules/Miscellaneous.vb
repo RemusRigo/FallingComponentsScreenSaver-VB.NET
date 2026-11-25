@@ -1,19 +1,10 @@
-﻿'--------------------------------------------------------------------------------------------------
-' BezierSS: Miscellaneous.vb
+'--------------------------------------------------------------------------------------------------
+' FallingComponentsSS: Miscellaneous.vb
 '    © 2026 Remus Rigo
-'       v1.0.20261111
+'       v1.0.20261125
 '--------------------------------------------------------------------------------------------------
 
 Module Miscellaneous
-
-   '-----------------------------------------------------------------------------------------------
-   ' RandomSpeed: Returns a random speed between 3 and 8, positive or negative
-   Public Function RandomSpeed(rnd As Random) As Integer
-      'Dim s As Integer = rnd.Next(3, 9)
-      Dim s As Integer = rnd.Next(Math.Max(1, cfg.Speed - 2), cfg.Speed + 3)
-      If rnd.Next(2) = 0 Then s = -s
-      Return s
-   End Function
 
    '-----------------------------------------------------------------------------------------------
    ' ColorFromHSV: converts hue (0-360), saturation (0-1) and value (0-1) to a Color
@@ -34,6 +25,12 @@ Module Miscellaneous
       End Select
 
       Return Color.FromArgb(CInt((r + m) * 255), CInt((g + m) * 255), CInt((b + m) * 255))
+   End Function
+
+   '-----------------------------------------------------------------------------------------------
+   ' Clamp
+   Public Function Clamp(v As Integer, min As Integer, max As Integer) As Integer
+      Return Math.Min(max, Math.Max(min, v))
    End Function
 
 End Module

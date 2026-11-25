@@ -1,10 +1,10 @@
 ﻿'--------------------------------------------------------------------------------------------------
-' BezierSS: Main.vb: Entry point for the application
+' FallingComponentsSS: Main.vb: Entry point for the application
 '    © 2026 Remus Rigo
-'       v1.0.20261111
+'       v1.0.20261124
 '--------------------------------------------------------------------------------------------------
 
-Imports BezierSS.API
+Imports FallingComponentsSS.API
 
 Module Main
 
@@ -18,7 +18,7 @@ Module Main
 
       cfg.Load()
 
-      Dim mode As String = If(args.Length > 0, args(0).Trim().ToLowerInvariant(), "/c")
+      Dim mode As String = If(args.Length > 0, args(0).Trim().ToLowerInvariant(), "/s")
 
       Select Case If(mode.Length >= 2, mode.Substring(0, 2), mode)
          Case "/a" ' legacy password change

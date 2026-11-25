@@ -1,7 +1,7 @@
-# Bezier ScreenSaver
-A Bézier curves screensaver for Windows
+# Falling Components ScreenSaver
+A falling computer components ScreenSaver for Windows
 
-![Screenshot](https://github.com/RemusRigo/BezierScreenSaver-VB.NET/blob/main/Screenshots/Screenshot.png)
+![Screenshot](https://github.com/RemusRigo/FallingDisksScreenSaver-VB.NET/blob/main/Screenshots/Screenshot.png)
 
 
 
@@ -14,12 +14,7 @@ A Bézier curves screensaver for Windows
 
 ## ✨ Features
 
-* Bouncing Bézier curve that leaves a fading, color-cycling trail
-* Multi-Monitor support (including monitors with different scaling)
-* Live preview in the Windows Screen Saver Settings dialog
-* Settings: trail length and speed (stored per user in the registry)
-* About box (right-click the Settings title bar)
-* Builds for .NET Framework 4.8, .NET 8.0 and .NET 10.0 (x86 and x64)
+* 
 
 
 
@@ -40,13 +35,15 @@ See the [User's Guide](Users%20Guide.md) for downloads, runtimes, installation a
 ![VS](https://img.shields.io/badge/IDE-Visual%20Studio-purple)
 <br>
 ![status](https://img.shields.io/badge/status-completed-brightgreen) 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/BezierScreenSaver-VB.NET/total)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/FallingDisksScreenSaver-VB.NET/total)
 
 
 
 ## 🗺️ Roadmap
 
-* 2026-11-12: Add: Live preview in the Windows Screen Saver Settings dialog
-* 2026-11-11: Add: Settings (trail length, speed); Fix: full-screen coverage on every monitor
-* 2026-11-11: Add: Multi-monitor support
-* 2026-11-11: Project started
+* 2026-11-25: Add: Settings form
+* 2026-11-25: Add: CD-ROM, Hard Disk, CPU, Memory class
+* 2026-11-24: Add: Fragment: a class that describes a single flying quarter after the break has already happened
+* 2026-11-24: Add: MediaItem: a class that describes one falling object
+* 2026-11-24: Add: FloppyDisk class
+* 2026-11-24: Project started

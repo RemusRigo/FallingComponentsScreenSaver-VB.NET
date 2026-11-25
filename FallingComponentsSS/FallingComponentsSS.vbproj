@@ -3,13 +3,14 @@
 <PropertyGroup>
    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
    <ApplicationManifest>app.manifest</ApplicationManifest>
-   <AssemblyName>BezierSS</AssemblyName>
+   <AssemblyName>FallingComponentsSS</AssemblyName>
    <MyType>WindowsForms</MyType>
    <OutputType>WinExe</OutputType>
    <Platforms>x86;x64</Platforms>
-   <RootNamespace>BezierSS</RootNamespace>
-   <StartupObject>BezierSS.Main</StartupObject>
-   <TargetFrameworks>net48;net8.0-windows;net10.0-windows</TargetFrameworks>
+   <RootNamespace>FallingComponentsSS</RootNamespace>
+   <StartupObject>FallingComponentsSS.Main</StartupObject>
+   <TargetFrameworks>net48;net10.0-windows;net8.0-windows</TargetFrameworks>
+   <TargetFrameworks Condition="'$(BuildingInsideVisualStudio)' == 'true'">net10.0-windows</TargetFrameworks>   <!-- inside Visual Studio use only one framework -->
    <UseWindowsForms>true</UseWindowsForms>
 </PropertyGroup>
 
@@ -24,7 +25,7 @@
 </PropertyGroup>
 
    <ItemGroup>
-      <EmbeddedResource Include="Res\PayPal.png"  LogicalName="PayPal.png" />
+      <EmbeddedResource Include="Res\PayPal.png" LogicalName="PayPal.png" />
       <EmbeddedResource Include="Res\Revolut.png" LogicalName="Revolut.png" />
    </ItemGroup>
 
