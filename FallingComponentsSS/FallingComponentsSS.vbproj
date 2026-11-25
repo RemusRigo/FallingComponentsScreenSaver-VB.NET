@@ -12,6 +12,7 @@
    <TargetFrameworks>net48;net10.0-windows;net8.0-windows</TargetFrameworks>
    <TargetFrameworks Condition="'$(BuildingInsideVisualStudio)' == 'true'">net10.0-windows</TargetFrameworks>   <!-- inside Visual Studio use only one framework -->
    <UseWindowsForms>true</UseWindowsForms>
+   <ApplicationIcon>Res\FDD.ico</ApplicationIcon>
 </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)' != ''">
@@ -23,6 +24,10 @@
 <PropertyGroup Condition="'$(Platform)' == 'x86' Or '$(Platform)' == 'x64'">
    <PlatformTarget>$(Platform)</PlatformTarget>
 </PropertyGroup>
+
+<ItemGroup>
+  <Content Include="Res\FDD.ico" />
+</ItemGroup>
 
    <ItemGroup>
       <EmbeddedResource Include="Res\PayPal.png" LogicalName="PayPal.png" />

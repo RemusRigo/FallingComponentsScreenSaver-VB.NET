@@ -1,7 +1,7 @@
 # Falling Components ScreenSaver
 A falling computer components ScreenSaver for Windows
 
-![Screenshot](https://github.com/RemusRigo/FallingDisksScreenSaver-VB.NET/blob/main/Screenshots/Screenshot.png)
+![Screenshot](https://github.com/RemusRigo/FallingComponentsScreenSaver-VB.NET/blob/main/Screenshots/Screenshot.png)
 
 
 
@@ -14,7 +14,8 @@ A falling computer components ScreenSaver for Windows
 
 ## ✨ Features
 
-* 
+* Floppy disks, CD-ROMs, cassette tapes, hard disks, CPUs and memory modules fall and spin down the screen
+* Items break into four pieces that bounce away when they hit the bottom of the screen
 
 
 
@@ -34,16 +35,17 @@ See the [User's Guide](Users%20Guide.md) for downloads, runtimes, installation a
 ![RUNTIME](https://img.shields.io/badge/Runtime-.NET%2010.0-lightblue)
 ![VS](https://img.shields.io/badge/IDE-Visual%20Studio-purple)
 <br>
-![status](https://img.shields.io/badge/status-completed-brightgreen) 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/FallingDisksScreenSaver-VB.NET/total)
+![status](https://img.shields.io/badge/status-completed-brightgreen)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/FallingComponentsScreenSaver-VB.NET/total)
 
 
 
 ## 🗺️ Roadmap
 
-* 2026-11-25: Add: Settings form
+* 2026-11-25: Add: [Floppy Disk icon](https://www.flaticon.com/free-icon/floppy-disk_17138366) by [Bahu Icons](https://www.flaticon.com/authors/bahu-icons)
+* 2026-11-25: Add: Settings form: Everything Random, Random Color, Colors, Random Objects (One / All), Objects, Speed
 * 2026-11-25: Add: CD-ROM, Hard Disk, CPU, Memory class
 * 2026-11-24: Add: Fragment: a class that describes a single flying quarter after the break has already happened
 * 2026-11-24: Add: MediaItem: a class that describes one falling object
-* 2026-11-24: Add: FloppyDisk class
+* 2026-11-24: Add: FDD (floppy disk) class
 * 2026-11-24: Project started
